@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(gradient-network-connection-background_23-2148874123.avif);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+header {
+    background: rgba(2, 119, 189, 0.8); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+img {
+    width: 925px;
+    height: 900px;
+    border-width: 2px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: gold;
+    object-fit: contain;
+  
+    object-fit: cover;
+    display: inline;
+}
+
+.btn {
+    background-color: #6200ea;
+    color: white; 
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 25px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.btn:hover {
+    background-color: #3700b3;
+    transform: translateY(-2px); 
+}
+
+.btn:active {
+    transform: translateY(0); 
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+h2 {
+    color: #01579b; 
+}
+
+
+.type img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: rgba(241, 241, 241, 0.8);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
